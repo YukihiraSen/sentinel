@@ -134,8 +134,8 @@ for xd in range(5000):
     application_version = str(random.randint(111,396))+'.0.0.'+str(random.randrange(10,49))+'.'+str(random.randint(111,396))
     V=str(random.randrange(11,99))
     uaku2=f'{aa} {bv}; {c}{d}{e}{f} Build/{d}{f}{V}{f}; wv) {g}{h}.{i}.{j}.{k} {l} [FBAN/EMA;FBLC/en_US;FBAV/{application_version};]'
-    [FBAN/EMA;FBLC/en_US;FBAV/331.0.0.9.105;]'
-    [FB_IAB/FB4A;FBAV/127.0.0.22.69;]'
+    #[FBAN/EMA;FBLC/en_US;FBAV/331.0.0.9.105;]'
+    #[FB_IAB/FB4A;FBAV/127.0.0.22.69;]'
     ugen.append(uaku2)
 
 for xd in range(5000):
