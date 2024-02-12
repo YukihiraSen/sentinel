@@ -208,7 +208,7 @@ lol = os.getcwd()
     #print ('\n\nSomething Wrong\n\n\nContect To Admin\n\n\nWhatsApp Number > +923007574310')
     #exit()
 try:   
-    def YUKI(ids):
+    def YUKI(user):
     if len(user)==15:
         if user[:10] in ['1000000000']       :creation = '\33[1;37m| \33[1;33m2009' 
         elif user[:9] in ['100000000']       :creation = '\33[1;37m| \33[1;33m2009' 
