@@ -207,6 +207,7 @@ lol = os.getcwd()
 #if tz+gz+yv+gd+ff not in lol:
     #print ('\n\nSomething Wrong\n\n\nContect To Admin\n\n\nWhatsApp Number > +923007574310')
     #exit()
+
 try:   
     def joined(ids):
     if len(ids)==15:
